@@ -1,0 +1,20 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+li{
+    list-style-type: none;
+
+}
+a{
+    text-decoration: none;
+    
+}
+#container{
+    display: inline;
+    display: flex;
+    background-color: yellowgreen;
+    
+}
