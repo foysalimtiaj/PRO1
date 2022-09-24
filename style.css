@@ -1,8 +1,9 @@
 ul{
     margin: 0;
     padding: 0;
-    background-color: rgb(252, 39, 39);
+    background-color:rgb(255, 52, 86);
     overflow: hidden;
+    min-width:80%;
     
 }
 ul li{
@@ -22,4 +23,37 @@ ul li a{
 }
 #dropDownItem a{
     display: block;
+    color: red;
+    text-shadow: 20px;
+}
+
+#dropDownItem {
+    
+    background-color: transparent;
+    
+    display: none;
+    position: absolute;
+    box-shadow: 12px 22px 20px black;
+}
+#dropDownContainer:hover #dropDownItem{
+    display: block;
+}
+#dropDownItem a:hover{
+     background-color: green;
+     transition: 3s;
+     color: black;
+     border-radius: 20px;
+     box-shadow: 2px 3px 5px red;
+}
+ul li:hover{
+    background-color: black;
+    transition: 5s;
+}
+#logo{
+    display: flex;
+    justify-content: space-between;
+}
+#logoimg{
+    height: 20px;
+    width: 100px;
 }
