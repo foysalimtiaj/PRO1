@@ -1,0 +1,21 @@
+#navContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo i{
+    position: absolute;
+    top:12px;
+    font-size: 26px;
+    color: blue;
+
+}
+#navMenu a{
+    display: flex;
+    margin: 16px;
+    float: left;
+}
+#themes{
+    position: absolute;
+    right: 40px;
+}
