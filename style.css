@@ -1,0 +1,110 @@
+
+#navBar{
+  
+    display: flex;
+     justify-content: space-between;
+    align-content: center;
+    background-color: transparent;
+    position: relative;
+}
+
+#navBar div img{
+    width:30vmax;
+    width: 29vmin;
+    min-height: 35px;
+}
+#navBar div img:hover{
+    cursor: pointer;
+}
+#listContain ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+#listContain ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 20px;
+    padding: 12px 16px;
+}
+.dropDownContainer a {
+    display: none;
+}
+.dropDown:hover .dropDownContainer a{
+    transition: 2s;
+    display: block;
+    
+}
+.dropDownContainer a:hover{
+    background-color:white;
+    color: black;
+    box-shadow: 3px 4px 5px black;
+    border-radius: 15px;
+}
+#themes{
+    
+    height: 25px;
+    margin-top:15px ;
+    margin-right: 2%;
+    
+
+}
+#themesBtn{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+#lightTemesBtn{
+    display: none;
+    border-radius: 10px;
+}
+#barsIcon{
+    width: 30px;
+    height: 30px;
+    display: none;
+    position: absolute;
+    right: 50px;
+    top: 20px;
+}
+#barsIcon a{
+    font-size: 20px;
+}
+@media screen and (max-width: 700px){
+    #barsIcon{
+        display: block;
+        
+        
+    }
+    #listContain {
+        overflow: hidden;
+    }
+    #listContain ul{
+        display: block;
+        position: absolute;
+        top: 40px;
+        left: 0;
+        
+    }
+    #listContain ul li {
+        padding: 10px;
+        position: sticky;
+    }
+
+
+    #themes{
+        display: flex;
+        align-content: center;
+    }
+    #navBar div img{
+        width: 50%;
+        position: absolute;
+        top: 10px;
+    }
+    .dropDownContainer{
+        position: relative;
+        left: 80px;
+        
+    }
+}
