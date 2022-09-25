@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#navBar{
+   display: flex;
+   justify-content: space-between;
+
+}
+#navLogo img{
+      margin-top: 15px;
+      margin-left: 10px;
+}
+#navLogo i{
+    position: absolute;
+    top: 22px;
+    font-size: 20px;
+    font-weight: 900;
+    color:darkblue ;
+}
+#menu ul{
+    display: flex;
+    list-style-type: none;
+
+}
+#menu ul li a{
+    text-decoration: none;
+    padding: 16px;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+#menu ul li a:hover{
+    background-color: rgb(22, 233, 233);
+    border-radius: 15px;
+    box-shadow: 3px 4px 7px rgb(55, 0, 255);
+}
+
+.dropDownItem a{
+    display: none ;
+    color: rgb(180, 240, 16);
+}
+.dropDownContainer:hover .dropDownItem a{
+    display: block;
+}
+
+
+#lastOnNav{
+    display: flex;
+}
+#themesBtn{
+    position: absolute;
+    display: flex;
+    top: 20px;
+    right: 76px;
+}
+#barLogo{
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    font-size: 20px;
+    color: rgb(248, 4, 53);
+}
