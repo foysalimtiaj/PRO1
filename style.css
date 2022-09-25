@@ -5,6 +5,7 @@ body{
 #navBar{
    display: flex;
    justify-content: space-between;
+   
 
 }
 #navLogo img{
@@ -23,17 +24,25 @@ body{
     list-style-type: none;
 
 }
+#menu ul li {
+    padding: 20px;
+}
+
 #menu ul li a{
     text-decoration: none;
-    padding: 16px;
+    padding: 9px;
     font-size: 18px;
     text-transform: capitalize;
     font-weight: 700;
+    
+    
 }
-#menu ul li a:hover{
-    background-color: rgb(22, 233, 233);
-    border-radius: 15px;
-    box-shadow: 3px 4px 7px rgb(55, 0, 255);
+#menu ul li :hover{
+    transition: 2s;
+    font-size: 20px;
+    color: red; 
+    
+    
 }
 
 .dropDownItem a{
@@ -42,7 +51,13 @@ body{
 }
 .dropDownContainer:hover .dropDownItem a{
     display: block;
+    background-color:bisque;
+    margin: 10px;
+    border-radius: 15px;
+    width: 100px;
+    color: black;
 }
+
 
 
 #lastOnNav{
