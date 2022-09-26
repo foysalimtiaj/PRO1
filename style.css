@@ -227,21 +227,3 @@ body{
 
 
 
-
-
-
-/* @media screen and (max-width: 800px) {
-    #menu.blockk{position: relative;}
-    #menu.blockk a{
-        float: none;
-        display: block;
-        text-align: left;
-    }
-    #menu.blockk .dropDownContainer{float:none;}
-    #menu.blockk .dropDownItem{position: relative;}
-    #menu.blockk .dropDownContainer .dropDownBtn{
-        display: block;
-        width: 100%;
-        text-align:left;
-    }
-} */
