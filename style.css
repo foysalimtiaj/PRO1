@@ -5,7 +5,8 @@ body{
 #navBar{
    display: flex;
    justify-content: space-between;
-   
+   background-color: aquamarine;
+   /* height: 70px;   */
 
 }
 #navLogo img{
@@ -19,16 +20,16 @@ body{
     font-weight: 900;
     color:darkblue ;
 }
-#menu ul{
+.menu ul{
     display: flex;
     list-style-type: none;
 
 }
-#menu ul li {
-    padding: 20px;
+.menu ul li {
+    padding: 7px;
 }
 
-#menu ul li a{
+.menu ul li a{
     text-decoration: none;
     padding: 9px;
     font-size: 18px;
@@ -37,9 +38,9 @@ body{
     
     
 }
-#menu ul li :hover{
+.menu ul li :hover{
     transition: 2s;
-    font-size: 20px;
+    font-size: 19px;
     color: red; 
     
     
@@ -48,6 +49,9 @@ body{
 .dropDownItem a{
     display: none ;
     color: rgb(180, 240, 16);
+}
+.dropDownItem{
+     position: absolute;
 }
 .dropDownContainer:hover .dropDownItem a{
     display: block;
@@ -68,11 +72,176 @@ body{
     display: flex;
     top: 20px;
     right: 76px;
+    
 }
 #barLogo{
     position: absolute;
-    top: 20px;
+    top: 25px;
     right: 40px;
     font-size: 20px;
-    color: rgb(248, 4, 53);
+    color: red;
+    display: none;
 }
+#darkBtn{
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    padding: 5px;
+
+}
+#lightBtn{
+    background-color: white;
+    border: none;
+    border-radius: 7px;
+    display: none;
+    padding: 5px;
+}
+@media screen and (max-width: 800px){
+    .menu{
+        display: none;
+    }
+    #barLogo{
+        display: block;
+
+    }
+   
+    
+}
+@media screen and (max-width:800px)
+ {
+    .menu.try .dropDownItem{
+        position: absolute;
+        left: 120px;
+        
+    } 
+    
+    
+    .menu.try{
+        display: block;
+        text-align: left;
+        
+    }
+    
+    #lastOnNav{
+        position: absolute;
+        top: -13px;
+        right: -9px;
+    }
+    #navLogo i{
+        position: absolute;
+        top: 10px;
+    }
+    #navLogo img{
+        position: relative;
+        top: -6px;
+
+    }
+    #barLogo{
+        font-size: 26px;
+    }
+    #menu.try .dropDownItem a{
+        position: relative;
+        left: 20px;
+    }
+}
+@media screen and (max-width: 800px)  {
+    .menu.try ul{
+        position: relative;
+        top: 20px;
+        left: -300px;
+        display: block;
+        padding-top: 30px;
+    }
+}
+@media screen and (max-width: 630px)  {
+    .menu.try ul{
+        position: relative;
+        top: 20px;
+        left: -230px;
+        display: block;
+        padding-top: 30px;
+    }
+}
+
+@media screen and (max-width: 530px)  {
+    .menu.try ul{
+        position: relative;
+        top: 20px;
+        left: -320px;
+        display: block;
+        padding-top: 30px;
+    }
+}
+@media screen and (max-width: 510px)  {
+    .menu.try ul{
+        position: relative;
+        top: 20px;
+        left: -380px;
+        display: block;
+        padding-top: 30px;
+    }
+@media screen and (max-width: 480px)  {
+    .menu.try ul{
+        position: relative;
+        top: 20px;
+        left: -370px;
+        display: block;
+        padding-top: 30px;
+    }
+@media screen and (max-width: 414px)  {
+    .menu.try ul{
+        position: relative;
+        top: 20px;
+        left: -300px;
+        display: block;
+        padding-top: 30px;
+    }
+}
+@media screen and (max-width: 375px)  {
+    .menu.try ul{
+        position: relative;
+        top: 20px;
+        left: -280px;
+        display: block;
+        padding-top: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media screen and (max-width: 800px) {
+    #menu.blockk{position: relative;}
+    #menu.blockk a{
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    #menu.blockk .dropDownContainer{float:none;}
+    #menu.blockk .dropDownItem{position: relative;}
+    #menu.blockk .dropDownContainer .dropDownBtn{
+        display: block;
+        width: 100%;
+        text-align:left;
+    }
+} */
