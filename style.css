@@ -165,15 +165,7 @@ body{
     }
 }
 
-@media screen and (max-width: 530px)  {
-    .menu.try ul{
-        position: relative;
-        top: 20px;
-        left: -320px;
-        display: block;
-        padding-top: 30px;
-    }
-}
+
 @media screen and (max-width: 530px)  {
     .menu.try ul{
         position: relative;
