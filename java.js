@@ -1,5 +1,5 @@
 function barsLogo() {
-    var x= document.getElementById("menuu");
+    let x= document.getElementById("menuu");
     if (x.className==="menu") {
         x.className+=" try";
         
@@ -8,3 +8,4 @@ function barsLogo() {
         x.className="menu";
     }
 }
+
