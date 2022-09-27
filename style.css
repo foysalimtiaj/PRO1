@@ -8,7 +8,6 @@ body{
    justify-content: space-between;
    background-color: aquamarine;
    /* height: 70px;   */
-
 }
 #navLogo img{
       margin-top: 15px;
@@ -216,13 +215,14 @@ body{
     margin-top: 30px;
     margin: 20px;
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-around; 
 }
 .item span{
     color: blue;
     font-style: italic;
 }
 
+<<<<<<< HEAD
 #container #item1{
     
     margin-left: 20px;
