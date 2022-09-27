@@ -224,11 +224,40 @@ body{
 }
 
 #container #item1{
-    padding: 20px;
+    
     margin-left: 20px;
     background-color: aquamarine;
-    width: 40%;
+    max-width: 300px;
+    max-height: 250px;
+    overflow: hidden;
+}
+#item1 button{
+    border: none;
+    padding: 8px  12px;
+    border-radius: 18px;
+    color:white;
+    font-size: 15px;
+    font-weight: 700;
+    background-color:darkred;
 }
 #container #item2{
     background-color: aqua;
+    max-width: 750px;
+    max-height: 550px;
+    overflow: hidden;
+    
 }
+#gmail{
+    font-size: 18px;
+    color: blue;
+    display: none;
+}
+#item1 button:hover{
+    font-size: 17px ;
+}
+#item2 img{
+    position: relative;
+    bottom: 110px;
+    right: 105px;
+}
+
