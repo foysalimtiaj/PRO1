@@ -212,14 +212,23 @@ body{
 }
 
 
-
-
 #container{
     margin-top: 30px;
     margin: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
 }
-#containre .item{
-    
+.item span{
+    color: blue;
+    font-style: italic;
+}
+
+#container #item1{
+    padding: 20px;
+    margin-left: 20px;
+    background-color: aquamarine;
+    width: 40%;
+}
+#container #item2{
+    background-color: aqua;
 }
