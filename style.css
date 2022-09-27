@@ -49,9 +49,10 @@ body{
 .dropDownItem a{
     display: none ;
     color: rgb(180, 240, 16);
+    
 }
 .dropDownItem{
-     position: absolute;
+     position:absolute;
 }
 .dropDownContainer:hover .dropDownItem a{
     display: block;
@@ -216,6 +217,7 @@ body{
     margin: 20px;
     display: flex;
     justify-content: space-around; 
+    position: re;
 }
 .item span{
     color: blue;
@@ -223,10 +225,15 @@ body{
 }
 
  #item1{
-    padding: 270px 20px 10px 290px;
-    margin-left: 20px;
-   
+    max-width: 300px;
+    max-height: 250px;
+    overflow: hidden;
+    
+   background-color: red ;
     width: 40%;
+}
+#item2{
+    background-color: blue;
 }
 #item1 button{
     background-color:rgba(240, 9, 121, 0.867);
@@ -253,60 +260,10 @@ display: block;
 
     width: 1000px;
 }
-@media screen and (max-width:1662px) {
-    #item2 img{
-        width: 800px;
-    }
-    #item2{
-        padding: 50px 30px 0px 0px;
-    }
-}
-@media screen and (max-width: 1485px) {
-    #item1{
-        padding: 270px 20px 10px 50px;; 
-    }
-    
-}
-@media screen and (max-width:1218px) {
-    #container{
-        display: block;
-    }
-    #item1{
-        position: relative;
-        top: -205px;
-        left: 60px;
-        
-    }
-    #item2{
-        position: relative;
-        top: -299px;
-        left: 200px;
 
-    }
-    #item2 img{
-        width: 900px;
-    }
 
-}
-@media screen and (max-width:1000px) {
-    #item2{
-         position: relative; 
-        left: 100px;
-    }
-    #item2 img{
-        width: 700px;
-    }
-    
-}
-@media screen and (max-width:756px){
 
-    #item2{
-        left: 30px;
-        top: -330px;
 
-    }
-    #item1{
-        top: -220px;
-        left: -40px;
-    }
-}
+
+
+
