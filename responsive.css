@@ -1,0 +1,112 @@
+@media screen and (max-width: 800px){
+    .menu{
+        display: none;
+    }
+    #barLogo{
+        display: block;
+
+    }
+   
+    
+}
+@media screen and (max-width:800px){
+    .menu.try .dropDownItem{
+        position: absolute;
+        left: 120px;
+        
+    } 
+    
+    
+    .menu.try{
+        display: block;
+        text-align: left;
+        
+    }
+    
+    #lastOnNav{
+        position: absolute;
+        top: -13px;
+        right: -9px;
+    }
+    #navLogo i{
+        position: absolute;
+        top: 10px;
+    }
+    #navLogo img{
+        position: relative;
+        top: -6px;
+
+    }
+    #barLogo{
+        font-size: 26px;
+    }
+    #menu.try .dropDownItem a{
+        position: relative;
+        left: 20px;
+    }
+}
+@media screen and (max-width: 800px)  {
+    .menu.try ul{
+        position: relative;
+        top: 20px;
+        left: -300px;
+        display: block;
+        padding-top: 30px;
+    }
+}
+@media screen and (max-width: 630px)  {
+    .menu.try ul{
+        position: relative;
+        top: 20px;
+        left: -230px;
+        display: block;
+        padding-top: 30px;
+    }
+}
+
+
+@media screen and (max-width: 530px)  {
+    .menu.try ul{
+        position: relative;
+        top: 20px;
+        left: -380px;
+        display: block;
+        padding-top: 30px;
+    }
+}
+@media screen and (max-width: 480px)  {
+    .menu.try ul{
+        position: relative;
+        top: 20px;
+        left: -370px;
+        display: block;
+        padding-top: 30px;
+    }
+}
+    @media screen and (max-width: 449px)  {
+        .menu.try ul{
+            position: relative;
+            top: 20px;
+            left: -0px;
+            display: block;
+            padding-top: 30px;
+        }
+    }
+@media screen and (max-width: 414px)  {
+    .menu.try ul{
+        position: relative;
+        top: 20px;
+        left: -300px;
+        display: block;
+        padding-top: 30px;
+    }
+}
+@media screen and (max-width: 375px)  {
+    .menu.try ul{
+        position: relative;
+        top: 20px;
+        left: -280px;
+        display: block;
+        padding-top: 30px;
+    }
+}
