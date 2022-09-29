@@ -8,6 +8,7 @@ body{
    justify-content: space-between;
    background-color: aquamarine;
    /* height: 70px;   */
+ 
 }
 #navLogo img{
       margin-top: 15px;
@@ -49,9 +50,11 @@ body{
 .dropDownItem a{
     display: none ;
     color: rgb(180, 240, 16);
+   
 }
 .dropDownItem{
      position: absolute;
+     z-index: 33;
 }
 .dropDownContainer:hover .dropDownItem a{
     display: block;
@@ -111,9 +114,9 @@ body{
 }
 
 #container #item1{
-    margin-top: 7vw;
-    margin-left: 5vw;
-    background-color: aquamarine;
+    margin-top: 200px;
+    margin-left: 20px;
+    
     max-width: 400px;
     max-height: 310px;
     min-height: 300px;
@@ -127,20 +130,22 @@ body{
     font-size: 15px;
     font-weight: 700;
     background-color:darkred;
+    cursor: pointer;
 }
 #container #item2{
     margin-top: 40px;
 
-    background-color: aqua;
-    max-width:40vw;
-    max-height: 28vw;
+    
+    width:1000px;
+    height: 700px;
     overflow: hidden;
-    padding-top:2vw;
+    padding-top:200px;
 
 }
 #item2 img{
-    width: 45vw;
-    width: 45vw;
+    width: 1050px;
+    
+    cursor: pointer;
 }
 #gmail{
     font-size: 18px;
@@ -159,7 +164,9 @@ body{
     bottom: 110px;
     right: 105px;
 }
-
+#item2{
+    z-index: 4;
+}
 
 
 #container1{
@@ -167,20 +174,26 @@ body{
     justify-content: space-around;
 }
 #item3{
-    /* background-color: aqua; */
+    
     max-width: 500px;
     max-height: 400px;
     overflow: hidden;
     margin-top: -40px;
     margin-right: 120px;
+    cursor: pointer;
 }
 #item4{
-    /* background-color: aquamarine; */
+    
     max-width: 400px;
     max-height: 300px;
     overflow: hidden;
     margin-top: 130px;
     margin-right: 160px;
+    border: 2px  solid black;
+    padding: 30px 20px;
+    border-radius: 20px;
+    box-shadow: 4px 6px 12px purple;
+    cursor: pointer;
 
 }
 #item4 p{
@@ -204,4 +217,89 @@ body{
     color: royalblue;
     text-align:start;
 
+}
+#container2{
+    border: 3px solid purple;
+    border-radius: 20px;
+    width: 800px;
+    padding: 50px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    box-shadow: 9px 9px 12px purple;
+   
+   
+   
+    
+}
+#c{
+    display: flex;
+    justify-content: center;
+}
+#item5 img{
+    width: 700px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+#item6{
+    max-width: 70%;
+    overflow: hidden;
+    margin-left: 40px;
+}
+#item6 h2{
+    font-size: 30px;
+    cursor: pointer;
+    color:royalblue;
+    font-style: italic;
+}
+#item6 h3{
+    font-size: 23px;
+    color: midnightblue;
+
+}
+#item6 h5{
+    font-size: 17px;
+}
+
+footer{
+    background-color: purple;
+    display: flex;
+    justify-content: space-around;
+}
+footer h1, h3{
+    color: white;
+}
+.last{
+    width: 420px;
+    margin-top: 40px;
+    margin: 30px;
+    padding: 30px;
+    background-color: black;
+
+}
+
+
+
+
+
+
+
+
+#fin h3{
+    color: rgb(255, 255, 255);
+    align-self: center;
+    padding-top: 10px;
+
+}
+#fin{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    background-color: rgb(99, 4, 99);
+
+    overflow: hidden;
+}
+
+#fin2 i{
+    padding: 30px 20px 30px 20px;
+    color: whitesmoke;
 }
