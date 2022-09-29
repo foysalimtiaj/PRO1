@@ -89,6 +89,7 @@
    #container #item2{
         position: absolute;
         left: 100px;
+        top: 50px;
     }
     #item4{
         top: 800px;
@@ -398,5 +399,8 @@ footer{
 @media screen and (max-width: 342px) {
     #item3{
         width: 200px;
+    }
+   #container #item2 {
+        top: 150px;
     }
 }

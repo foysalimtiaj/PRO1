@@ -58,11 +58,12 @@ body{
 }
 .dropDownContainer:hover .dropDownItem a{
     display: block;
-    background-color:bisque;
+    background-color:purple;
     margin: 10px;
     border-radius: 15px;
     width: 100px;
-    color: black;
+    color: white;
+    width: auto;
 }
 
 
@@ -273,14 +274,9 @@ footer h1, h3{
     margin-top: 40px;
     margin: 30px;
     padding: 30px;
-    background-color: black;
+    
 
 }
-
-
-
-
-
 
 
 
