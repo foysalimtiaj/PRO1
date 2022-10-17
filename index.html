@@ -1,162 +1,138 @@
-
- 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="response.css">
+    <link rel="stylesheet" href="img/icon/css/all.css">
     <link rel="stylesheet" href="img/icon/css/brands.css">
     <link rel="stylesheet" href="img/icon/css/fontawesome.css">
     <link rel="stylesheet" href="img/icon/css/regular.css">
     <link rel="stylesheet" href="img/icon/css/solid.css">
-    <link rel="stylesheet" href="img/icon/css/all.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsive.css">
-     <link rel="shortcut icon" href="img/khayrul vai 1.png"  type="image/x-icon">
-    <title >MD KHAYRUL HASAN</title>
+    <link rel="stylesheet" href="img/icon/css/svg-with-js.css">
+    <link rel="stylesheet" href="img/icon/css/v4-font-face.css">
+    <link rel="stylesheet" href="img/icon/css/v4-shims.css">
+    <link rel="stylesheet" href="img/icon/css/v5-font-face.css">
+    <link rel="shortcut icon" href="img/khayrul vai 1.png" type="image/x-icon">
+    <title>MD KHAYRUL HASAN</title>
 </head>
 <body>
-    <div id="navBar" >
-        <div id="navLogo">
-            <img src="img/icon/user-with-sunglasses-32px.png" alt="">
-            <i>MD Khayrul Hasan</i>
+    <nav id="navBar">
+        <ul>
+            <li id="logo" style="cursor:pointer ;"> <img  style="padding:10px ;" src="img/icon/user-with-sunglasses-32px.png" alt=""  ></li>
+            <li  style="cursor:pointer ;"><a  > MD KHAYRUL HASAN</a></li>
 
-        </div>
+            <div id="menu" class="menuu ">
 
-
-        <div class="menu" id="menuu" >
-            <ul>
-                <li><a href="#">home</a></li>
+                <li id="home"><a href="#">home</a></li>
                 <li><a href="#">work</a></li>
-                <li class="dropDownContainer">
-                    <a class="dropDownBtn" href="#">about <i class="fa fa-caret-down"></i></a>
-                    <div class="dropDownItem">
-                        <a href="#">blog</a>
-                        <a href="#">favourite</a>
-                    </div>
+                <li class="drop"><a class="dropaBtn" href="#">about  <i class="fa fa-caret-down"></i></a>
+                    <ul class="dropContain">
+                        <li><a href="#" class="fa">blog</a></li>
+                        <li><a href="#" class="fa">favourite</a></li>
+                    </ul> 
                 
                 </li>
-                <li class="dropDownContainer"><a
-                    class="dropDownBtn" href="#">contact <i class="fa fa-caret-down"></i></a> 
-                    <div class="dropDownItem">
-                        <a href="https://www.facebook.com/khcse" target="_blank" > <i class="fa-brands fa-facebook-f"> </i>   facebook</a>
-                        <a href="#"> <i class="fa-brands fa-instagram"></i> instagram</a>
-                        <a href="#"><i class="fa-brands fa-linkedin"></i> linkedin</a>
-                        <a href="#">  <i class="fa-brands fa-twitter"></i>  twitter </a>
-                    </div></li>
-            </ul>
-
-        </div>
-
-
-        <div id="lastOnNav">
-            <div id="themesBtn">
-                <button id="darkBtn">dark</button>
-                <button id="lightBtn">light</button>
+                <li class="drop" id="contact"><a class="dropBtn" href="#">contact <i class="fa fa-caret-down"></i></a>
+                    <ul class="dropContain">
+                        <li><a class="fa-brands fa-facebook" href="#"> facebook</a></li>
+                        <li><a class="fa-brands fa-linkedin" href="#"> linkedin</a></li>
+                        <li><a class="fa-brands fa-twitter" href="#"> twitter</a></li>
+                    </ul>
+                </li>
             </div>
-            <div id="bar">
-                <i class="fa-solid fa-bars" onclick="barsLogo()" id="barLogo"></i>
-            </div>
+            <li id="bars"><a class="fa fa-bars" href="#"></a></li>
+        </ul>
+    </nav>
 
-        </div>
+
+<div class="row">
+    <div id="first" class="col-big-5">
+        <h1>Hi there, <br>I'm <br>  <span style="color:blue ;font-style:italic ; ">MD Khayrul Hasan</span></h1>
+        <br>
+        <br>
+        <h2>Softwer Engineer</h2>
+        <button style="border: none; border-radius: 20px;margin-top: 20px; "><a style="color:#ffffff;background-color: orange;border-radius: 20px; padding: 10px; text-decoration: none; "  href="mailto:demodemo@gamil.com">contact</a></button>
 
     </div>
-
-
-    <div id="container">
-        <div class="item" id="item1">
-            <h1>Hi there,  <br> I'm <span> <br> Md khayrul Hasan</span></h1>
-            <h2>Software Engineer</h2>
-            <button>contact <i class="fa fa-caret-down"></i></button>
-            <h4 id="gmail">demo.demo@gmail.com</h4>
-        </div>
-
-        <div class="item" id="item2">
-            <img src="img/khayrul vai 1.png" alt="" width="900px">
-
-        </div>
-
-
+    <div class="col-big-7">
+        <img src="img/khayrul vai 1.png" alt="">
     </div>
 
 
 
 
-<div id="container1">
-    <div id="item3">
+</div>
+
+
+
+<div class="row">
+    <div class="col-big-6" id="sceond-para">
+        <div class="card col-big-10 col-mid-10 col-sml-10">
+        <h3>I work in Bangladesh's largest softwer company <a style="text-decoration: none;" target="_blank" href="https://egeneration.co/">egeneration</a>. I have done many big projects with my team. and I have many achievements is my IT career. </h3>
+        <p>I have experience to building wab and mobile application with javascript/reactjs/nodejs/react native and some other cool libraries and frameworks.</p>
+
+        </div>
+    </div>
+    <div class="col-big-6" id="sceond-img">
         <img src="img/khayrul vai 2.png" alt="">
     </div>
-    <div id="item4">
-        <h3>I work in Bangladesh's largest software company <a href="https://egeneration.co/" target="_blank">eGeneration</a>. I have done many big projects with my team. And I have many achievements in my IT career.</h3>
-        <p>I have an experience of building Web and Mobile applications with Javascript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks. </p>
-        
-    </div>
-</div>
-<div id="c">
 
-    <div id="container2">
-        <div id="item5">
-            <img src="img/khayrul vai 3.jpg" alt="">
-        </div>
-        <div id="item6">
-            <h2>Hobbis</h2>
-            <h3>Coding is very enjoyable for me</h3>
-            <h5>I love my work very much. Coding is my hobby I like to learn more about coding, I also like to travel, I love to spend most of my day in front of my computer</h5>
-        </div>
-    
-    </div>
 </div>
 
-<div id="container3">
+<div class="col-big-9  col-mid-9 col-sml-9 card2">
+    <img src="img/khayrul vai 3.jpg" alt="last photos">
+    <h2 style="color:purple ; font-size:3vw;">Hobbis</h2>
+    <h3 style="color:blue ; font-size:2vw;">coding is very enjoyable for me</h3>
+    <h5 style="font-size:1.5vw ;">I love my work very much. coding is my hobby i like to learn more about coding. I also like to travel, I love to spend most of my day in front of my computer</h5>
+</div>
 
-    <footer>
 
-    <div id="footer1" class="last">
-    <h1>ADDRESS</h1>
-    <h3><i class="fa-solid fa-map-location"></i>  Dhaka Bangladesh</h3>
-    <h3><i class="fa-solid fa-phone"></i>+8801778787760</h3>
-    <h3> <i class="fa-regular fa-envelope"></i> demo.demo@gmail.com</h3>
 
+<div id="footerr " class="row col-big-12" style="background-color:purple ;" >
+
+<div class="col-big-4  col-mid-6">
+    <h1 style="color:#ffffff;">ADDRESS</h1>
+    <h3  style="color:#ffffff;">Dhaka Bangladesh</h3>
+    <h3  style="color:#ffffff;">01700007777</h3>
+    <h3  style="color:#ffffff;">demodemo@gmil.com</h3>
+</div>
+<div class="col-big-4 col-mid-6 ">
+    <h1  style="color:#ffffff;">ABOUT US</h1>
+    <h3  style="color:#ffffff;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit eaque aliquid dolore, quae quaerat Reprehenderit eaque aliquid dolore, quae quaerat</h3>
+
+</div>
+<div class="col-big-4 col-mid-12" style="text-align:center ;">
+    <h1  style="color:#ffffff;">COMMENT</h1>
+    <form action="">
+        <input type="text" name="comment" id="inp" placeholder="you'r comment">
+        <button type="submit">submit</button>
+    </form>
+
+</div>
+
+</div>
+
+
+<div id="foot" class="col-big-12" style="background-color:rgb(106, 3, 106) ;">
+    <div class="col-big-6">
+        <h3 style="text-align:center ;color:#ffffff;">copyright <i class="fa fa-copyright"></i>
+        </h3>
     </div>
 
 
-    <div id="footer2" class="last">
-        <h1>ABOUT US</h1>
-    <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae non in provident explicabo impedit deserunt tempora! Esse porro, qui quod nisi impedit, magni amet, soluta nam similique facere deleniti dicta.</h3>
-    </div>
 
-
-    <div id="footer3" class="last">
-        <h1>COMMENT</h1>
-        <form action="" >
-            <input type="text" name="comment" id="inp" placeholder="you'r comment">
-            <button type="submit" name="comment">submit</button>
-        </form>    
-
-    </div>
-
-
-
-
-    </footer>
-
-    <div id="fin">
-        <div id="fin1">
-        <h3> copyright<i class="fa-regular fa-copyright"></i> 2022 </h3>
-        </div>
-        <div id="fin2">
-            <i class="fa-brands fa-facebook-f"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-linkedin"></i>
-            <i class="fa-brands fa-github"></i>
-        </div>
+    <div class="col-big-6" style="text-align:center ;">
+        <i  style="color:#ffffff;"  class="fa-brands fa-facebook"></i>
+        <i   style="color:#ffffff;"class="fa-brands fa-linkedin"></i>
+        <i style="color:#ffffff;" class="fa-brands fa-github"></i>
 
     </div>
 </div>
+
 
     <script src="java.js"></script>
 </body>
 </html>
-
-

@@ -1,303 +1,85 @@
-
-body{
-    margin: 0;
+*{
     padding: 0;
-    background:  no-repeat center center fixed; 
-  
+    margin: 0;
+    box-sizing: border-box;
 }
-#navBar{
-   display: flex;
-   justify-content: space-between;
-   background-color: aquamarine;
-   /* height: 70px;   */
- 
-}
-#navLogo img{
-      margin-top: 15px;
-      margin-left: 10px;
-}
-#navLogo i{
-    position: absolute;
-    top: 22px;
-    font-size: 20px;
-    font-weight: 900;
-    color:darkblue ;
-}
-.menu ul{
-    display: flex;
+body {
+    font-family: 'Times New Roman', serif;
+  }
+ul{
     list-style-type: none;
-
+    overflow: hidden;
+    background-color:aquamarine;
 }
-.menu ul li {
-    padding: 7px;
-}
-
-.menu ul li a{
+li a{
     text-decoration: none;
-    padding: 9px;
-    font-size: 18px;
+    display: block;
+    padding: 17px;
     text-transform: capitalize;
-    font-weight: 700;
-    
-    
-}
-.menu ul li :hover{
-    transition: 2s;
-    font-size: 19px;
-    color: red; 
-    
-    
-}
-
-.dropDownItem a{
-    display: none ;
-    color: rgb(180, 240, 16);
-   
-}
-.dropDownItem{
-     position: absolute;
-     z-index: 33;
-}
-.dropDownContainer:hover .dropDownItem a{
-    display: block;
-    background-color:purple;
-    margin: 10px;
-    border-radius: 15px;
-    width: 100px;
-    color: white;
-    width: auto;
-}
-
-
-
-#lastOnNav{
-    display: flex;
-}
-#themesBtn{
-    position: absolute;
-    display: flex;
-    top: 24px;
-    right: 76px;
-    
-}
-#barLogo{
-    position: absolute;
-    top: 25px;
-    right: 40px;
     font-size: 20px;
-    color: red;
-    display: none;
-}
-#darkBtn{
-    border: none;
-    background-color: black;
-    color: white;
-    border-radius: 6px;
-    padding: 5px;
-
-}
-#lightBtn{
-    background-color: white;
-    border: none;
-    border-radius: 7px;
-    display: none;
-    padding: 5px;
-}
-
-#container{
-    margin-top: 30px;
-    margin: 20px;
-    display: flex;
-    justify-content: space-around; 
-}
-.item span{
     color: blue;
-    font-style: italic;
-    font-size: 40px;
-}
-
-#container #item1{
-    margin-top: 200px;
-    margin-left: 20px;
-    
-    max-width: 400px;
-    max-height: 310px;
-    min-height: 300px;
-    overflow: hidden;
-}
-#item1 button{
-    border: none;
-    padding: 8px  12px;
-    border-radius: 18px;
-    color:white;
-    font-size: 15px;
     font-weight: 700;
-    background-color:darkred;
-    cursor: pointer;
+      
 }
-#container #item2{
-    margin-top: 40px;
 
-    
-    width:1000px;
-    height: 700px;
-    overflow: hidden;
-    padding-top:200px;
+a:hover{
+    color:red;
+    background-color: rgb(7, 212, 144);
+   
+}
 
+ul li{
+    float: left;
 }
-#item2 img{
-    width: 1050px;
-    
-    cursor: pointer;
+.dropContain li{
+    float: none;
 }
-#gmail{
-    font-size: 18px;
-    color: blue;
+.dropContain{
+    position: absolute;
+    display: none;
+   
+}
+.dropContain a{
+    width: 100%;
+}
+#menu{
+    margin-left: 25%;
+}
+
+#contact{
+    float: right;
+    padding-right: 70px;
+   
+}
+.drop #contact{
+    margin-right: 90px;
+}
+#bars{
+    float: right;
     display: none;
 }
-#item1 button:hover~#gmail{
+.drop:hover .dropContain{
     display: block;
-    font-size: 20px;
-}
-#item1 button:hover{
-    font-size: 17px ;
-}
-#item2 img{
-    position: relative;
-    bottom: 110px;
-    right: 105px;
-}
-#item2{
-    z-index: 4;
-}
-
-
-#container1{
-    display: flex;
-    justify-content: space-around;
-}
-#item3{
     
-    max-width: 500px;
-    max-height: 400px;
-    overflow: hidden;
-    margin-top: -40px;
-    margin-right: 120px;
-    cursor: pointer;
 }
-#item4{
-    
-    max-width: 400px;
-    max-height: 300px;
-    overflow: hidden;
-    margin-top: 130px;
-    margin-right: 160px;
-    border: 2px  solid black;
-    padding: 30px 20px;
+.card{
+    margin: 5%;
+    border: 2px solid black;
+    box-shadow: 3px 3px 4px black;
+    padding: 60px;
     border-radius: 20px;
-    box-shadow: 4px 6px 12px purple;
-    cursor: pointer;
-
+    margin-right: 400px;
 }
-#item4 p{
-    color: black;
-    text-align:start;
-    font-size: 20px;
-    font-style: italic;
-    font-weight: 600;
-
-}
-#item4 h3 a{
-    color: green;
-    text-decoration: none;
-    color:rebeccapurple;
-    font-style: italic;
-}
-#item4 h3 a:active{
-    color: red;
-}
-#item4 h3{
-    color: royalblue;
-    text-align:start;
-
-}
-#container2{
-    border: 3px solid purple;
+.card2{
+    border: 2px solid purple;
     border-radius: 20px;
-    width: 800px;
-    padding: 50px;
-    margin-top: 200px;
-    margin-bottom: 200px;
-    box-shadow: 9px 9px 12px purple;
-   
-   
-   
-    
-}
-#c{
-    display: flex;
-    justify-content: center;
-}
-#item5 img{
-    width: 700px;
-    margin-left: 40px;
-    cursor: pointer;
-}
-#item6{
-    max-width: 70%;
-    overflow: hidden;
-    margin-left: 40px;
-}
-#item6 h2{
-    font-size: 30px;
-    cursor: pointer;
-    color:royalblue;
-    font-style: italic;
-}
-#item6 h3{
-    font-size: 23px;
-    color: midnightblue;
-
-}
-#item6 h5{
-    font-size: 17px;
+    text-align: center;
+    margin: 12%;
+    padding: 20px;
+    box-shadow: 3px 3px 4px purple;
 }
 
-footer{
-    background-color: purple;
-    display: flex;
-    justify-content: space-around;
-}
-footer h1, h3{
-    color: white;
-}
-.last{
-    width: 420px;
-    margin-top: 40px;
-    margin: 30px;
-    padding: 30px;
-    
-
-}
-
-
-
-#fin h3{
-    color: rgb(255, 255, 255);
-    align-self: center;
-    padding-top: 10px;
-
-}
-#fin{
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
-    background-color: rgb(99, 4, 99);
-
-    overflow: hidden;
-}
-
-#fin2 i{
-    padding: 30px 20px 30px 20px;
-    color: whitesmoke;
+input ,button{
+    padding: 10px 15px;
+    margin-top: 20px;
 }
